@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-oa8sl@b%5y259l-q^qe-c-&p37c#^zzqy^c22gieldv5)*4i+m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# settings.py
+
+ALLOWED_HOSTS = ['kusu-apps.com', 'www.kusu-apps.com']
+
 
 
 # Application definition
